@@ -1,4 +1,8 @@
-package com.gabriel.sprites;
+/**
+ * @author Lucas Del Castanhel Dias
+ * @author Gabriel Centenaro 
+ */
+package com.sprites.activities;
 
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.camera.hud.controls.BaseOnScreenControl;
@@ -9,10 +13,8 @@ import org.andengine.engine.handler.physics.PhysicsHandler;
 import org.andengine.engine.options.EngineOptions;
 import org.andengine.engine.options.ScreenOrientation;
 import org.andengine.engine.options.resolutionpolicy.RatioResolutionPolicy;
-import org.andengine.entity.modifier.PathModifier.Path;
 import org.andengine.entity.primitive.Line;
 import org.andengine.entity.scene.Scene;
-import org.andengine.entity.scene.background.Background;
 import org.andengine.entity.scene.background.RepeatingSpriteBackground;
 import org.andengine.entity.sprite.AnimatedSprite;
 import org.andengine.entity.util.FPSLogger;
@@ -39,8 +41,6 @@ public class Sprites extends SimpleBaseGameActivity {
 
 	private static final int CAMERA_WIDTH = 480;
 	private static final int CAMERA_HEIGHT = 320;
-	private static final int DIALOG_ALLOWDIAGONAL_ID = 0;
-
 	private Camera mCamera;
 
 	private RepeatingSpriteBackground mGrassBackground;
